@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS </title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        body, html, style {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            height: 50%;
+            padding-left: 20px;
+        }
+
+        button{
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            text-align: right;
+            margin-right: 20px;
+        }
+
+        .image-container:first-child img {
+            margin-left: -20px; 
+        }
+
+        .image-set {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            overflow-x: scroll; 
+        }
+
+        .image-set img {
+            max-width: 30%; 
+            margin-right: 10px; 
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            background-color: #162276;
+            color: #ededed;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .bx-bx-menu {
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: #ededed;
+            font-size: 1.2rem;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            color: #00abf0;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+        
+        <div class="bx-bx-menu" id="menu-icon">Pravas - Tourism Website</div>
+        <box-icon name='location-plus'></box-icon>
+        <nav class="navbar">
+            <a href="" class="active">Home</a>
+            <a href="" class="active">About</a>
+            <a href="" class="active">Services</a>
+            <a href="" class="active">Packages</a>
+            <a href="" class="active">Blog</a>
+            <a href="" class="active">Pages</a>
+            <a href="" class="active">Contact</a>
+            <a href="" class="active">Booknow</a>
+        </nav>
+    </header>
+
+    <img src="/Users/ankitalokhande/Desktop/Screenshot 2024-04-08 at 12.43.59 PM.png">
+
+    <h3> ----OUR GALLERY----</h3>
+    <h2>Tourism & Traveling Gallery.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nam, architecto doloremque velit explicabo? Voluptate sunt eveniet fuga eligendi! Expedita laudantium fugiat corrupti eum cum repellat a laborum quasi.</p>
+
+    <button>All</button>
+    <button>World Tour</button>
+    <button>Ocean Tour</button>
+    <button>Summer Tour</button>
+    <button>Sport Tour</button>
+
+   
+    <img src="/Users/ankitalokhande/Desktop/Screenshot 2024-04-08 at 12.55.52 PM.png">
+    <img src="/Users/ankitalokhande/Desktop/Screenshot 2024-04-08 at 12.57.45 PM.png">
+    <img src="/Users/ankitalokhande/Desktop/Screenshot 2024-04-08 at 12.58.30 PM.png">
+    <img src="/Users/ankitalokhande/Desktop/Screenshot 2024-04-08 at 1.09.04 PM.png">
+
+</body>
+</html>
